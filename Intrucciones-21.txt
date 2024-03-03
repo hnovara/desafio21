@@ -1,0 +1,45 @@
+El objetivo de este ejercicio es crear una aplicación web básica que permita a los usuarios guardar información personal utilizando formularios y objetos de JavaScript, y almacenarla en la persistencia del navegador.
+
+La aplicación debe tener un formulario que solicite la información personal del usuario, como su nombre, dirección, correo electrónico, etc. 
+Después de que el usuario complete el formulario, se debe crear un objeto de JavaScript que contenga la información ingresada y mostrarla en la página. 
+Además, la información debe almacenarse en la persistencia del navegador para que el usuario pueda recuperarla más tarde.
+
+Para realizar este ejercicio, se deben seguir los siguientes pasos:
+
+Crear una página HTML básica con un formulario que solicite la información personal del usuario. 
+Utilizar los elementos de formulario de HTML como input, select, textarea, etc. para recolectar la información.
+
+Crear un objeto de JavaScript para almacenar la información ingresada por el usuario. 
+El objeto debe tener las propiedades correspondientes a los campos del formulario, como nombre, dirección, correo electrónico, etc.
+
+Al enviar el formulario, se debe crear un nuevo objeto de JavaScript que contenga la información ingresada por el usuario. 
+Este objeto se debe agregar a un arreglo de objetos que contiene toda la información almacenada por el usuario.
+
+Utilizar el método localStorage de JavaScript para almacenar el arreglo de objetos creado en el paso anterior en la persistencia del navegador.
+
+Al cargar la página, se debe recuperar el arreglo de objetos almacenado en la persistencia del navegador y mostrar la información en la página.
+
+Agregar la funcionalidad para permitir que el usuario elimine información almacenada previamente.
+
+Requerimientos Funcionales:
+
+* La aplicación debe tener un formulario que permita al usuario ingresar su información personal.
+* La información debe ser almacenada en un objeto de JavaScript y agregada a un arreglo de objetos que contiene toda la información ingresada por el usuario.
+* La información ingresada por el usuario debe ser almacenada en la persistencia del navegador utilizando el método localStorage de JavaScript.
+* La información almacenada previamente debe ser recuperada y mostrada en la página.
+* La aplicación debe permitir al usuario eliminar información almacenada previamente.
+
+Requerimientos No Funcionales:
+
+* La aplicación debe ser fácil de usar y entender para un usuario básico.
+* La información ingresada por el usuario debe ser validada antes de ser almacenada.
+* La aplicación debe ser compatible con los navegadores web modernos.
+
+
+1.Crear la página HTML y el formulario básico
+2.Crear un objeto de JavaScript para almacenar la información ingresada por el usuario
+3.Al enviar el formulario, crear un nuevo objeto de JavaScript con la información ingresada por el usuario y agregarlo a un arreglo de objetos que contiene toda la información ingresada por el usuario.
+4.Utilizar el método localStorage de JavaScript para almacenar el arreglo de objetos creado en el paso anterior en la persistencia del navegador
+5.Al cargar la página, recuperar el arreglo de objetos almacenado en la persistencia del navegador y mostrar la información en la página.
+6.Agregar la funcionalidad para permitir que el usuario elimine información almacenada previamente.
+
